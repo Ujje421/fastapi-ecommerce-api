@@ -11,7 +11,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import ORJSONResponse
 
 from app.core.config import settings
-# from app.api.v1.api import api_router
+from app.api.v1.api import api_router
+
+# ... inside the rest of the file (skipping down to the router inclusion)
+
 
 
 @asynccontextmanager
